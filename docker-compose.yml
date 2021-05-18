@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  gatling:
+    image: "gatling_kafka:java8"
+    volumes:
+        - ./user-files:/gatling-charts-highcharts-bundle-3.5.1/user-files
+        - ./results:/gatling-charts-highcharts-bundle-3.5.1/results
+    command: ./gatling.sh
