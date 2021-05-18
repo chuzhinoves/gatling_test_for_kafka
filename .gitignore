@@ -2,3 +2,4 @@ gatling-charts-highcharts-bundle-3.5.1
 gatling-kafka
 sbt
 gatling_kafka.tar
+docker-compose.yml
